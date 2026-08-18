@@ -77,7 +77,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Sobre a leitura...";
+    caixaPerguntas.textContent = "Sobre os filmes...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
