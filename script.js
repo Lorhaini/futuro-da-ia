@@ -6,46 +6,45 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Atualmente o hábito de leitura não é comum entre os jovens, a leitura é algo importânte para a formação desses jovens?",
+        enunciado: "Atualmente, o hábito da leitura não é tão comum entre os jovens. Você considera a leitura importante para a formação desses jovens?",
         alternativas: [
             {
-                texto: "Sim, já que, além de inumeros livros servirem de base para vestibulares, eles podem trazer conhecimentos de assuntos diversos e expandir o vacabulario do leitor",
-                afirmacao: "Os livros ainda são de uma grande importância para os estudos e para a formação da etica e moral da população, sendo sem dúvidas um grande alicerce da sociedade."
+                texto: "Sim, pois a leitura contribui para o desenvolvimento do conhecimento, amplia o vocabulário e ajuda na formação do pensamento crítico.",
+                afirmacao: "A leitura possui grande importância na formação dos jovens, pois permite adquirir novos conhecimentos, desenvolver o pensamento crítico e compreender melhor diferentes assuntos e realidades."
             },
             {
-                texto: "A leitura é indiferente, já que, atualmente não são necessarios livros para os estudos ou enterterimento, já que, atualmente não são necessarios livros para estudos levando em conta que hoje é possível encomtrar ambos nas redes sociais",
-                afirmacao: "Apesar do grande acesso a informaçõese conteúdos que as redes sociais nos proporcionam, os livros não deixam de ser essenciais na sociedade seja para estudos ou para obter conhecimento."
+                texto: "Não, pois atualmente existem outras formas de obter informações e conhecimentos, principalmente por meio da internet e das redes sociais.",
+                afirmacao: "Apesar de a internet e as redes sociais facilitarem o acesso à informação, a leitura continua sendo importante para desenvolver a concentração, o conhecimento e a capacidade de interpretar diferentes conteúdos."
             }
         ]
     },
     {
-        enunciado: "Algumas pessoas tem muita dificuldade para começarem no mundo da leitura, dito isso qual seria a maneira mais recomendada para se começar a ler?",
+        enunciado: "Algumas pessoas têm dificuldade para começar a ler. Qual seria uma boa maneira de desenvolver o hábito da leitura?",
         alternativas: [
             {
-                texto: "Ler livros pequenos, de facíl entendimento e que sejam de assuntos de interesse do leitor.",
-                afirmacao: "Para quem não  tem o hábito de ler, porém tem vontadede iniciar no mundo da leitura o mais indicado seria ler livros pequenos e de assuntos que sejam de interesse do leitor para despertar o interesse da leitura e tornar a mesma um habito."
+                texto: "Começar com livros curtos, de fácil compreensão e que abordem assuntos de interesse do leitor.",
+                afirmacao: "Para quem ainda não possui o hábito de ler, começar por livros curtos e relacionados aos seus interesses pode tornar a leitura mais agradável e ajudar a transformá-la em um hábito."
             },
             {
-                texto: "Ler livros didáticos e de autores conhecidos.",
-                afirmacao: "Para quem tem interessede começar na leitura não seria ideal começar diretamente pelos clássicos já que a leitura dos mesmos pode ser mais dificil dificultando assim a criação do habito da leitura."
+                texto: "Começar diretamente por livros clássicos e obras mais complexas.",
+                afirmacao: "Começar por obras muito complexas pode tornar a leitura cansativa para quem ainda não possui o hábito. Por isso, é importante escolher livros adequados ao nível de leitura e aos interesses de cada pessoa."
             }
         ]
     },
     {
-        enunciado: "Atualmente vemos um grande aumentos nos valores dos livros físicos, oque dificulta a aquisição dos mesmos, a leitura digital vem se popularizou entre os leitores nos ultimos anos em parte pelos preços mais acessiveis, então seria ela uma alternativa viavel aos livros físicos?",
+        enunciado: "Os livros físicos podem ter preços elevados, enquanto a leitura digital oferece opções mais acessíveis. Os livros digitais podem ajudar a tornar a leitura mais acessível?",
         alternativas: [
             {
-                texto: "Provavelmente, já que iria possibilitar uma maior aquisição por parte da população.",
-                afirmacao: "Já para quem não  tem condições de adquirir livros físicos os livros online são uma otima opção, pois permite a aquisição dos mesmos por um preço muito menor ou até mesmo gratuitamente, o que sem duvidas pode abrir grandes portas para esses leitores."
+                texto: "Sim, pois os livros digitais podem ser encontrados por preços menores e também existem diversas opções gratuitas.",
+                afirmacao: "Os livros digitais podem facilitar o acesso à leitura, principalmente para pessoas que não possuem condições de comprar livros físicos, oferecendo alternativas gratuitas ou com preços mais acessíveis."
             },
             {
-                texto: "Não teria grande importância já que grande parte da população continuaria adquirindo livros físicos apesar dos preços.",
-                afirmacao: "Apesar do consumo de livros físicos ainda ser maioria os livros oline permitem que pessoas que não podem adquirir livros físicos tenham acesso a leitura, podendo gerar grandes oportunidades para esses leitores."
+                texto: "Não, pois os livros físicos continuam sendo a principal forma de leitura para muitas pessoas.",
+                afirmacao: "Mesmo que muitas pessoas ainda prefiram os livros físicos, a leitura digital é uma alternativa importante, pois permite que mais pessoas tenham acesso aos livros e ao conhecimento."
             }
         ]
     },
 ];
-
 
 let atual = 0;
 let perguntaAtual;
