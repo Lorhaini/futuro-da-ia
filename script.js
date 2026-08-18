@@ -6,46 +6,45 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Atualmente, o hábito da leitura não é tão comum entre os jovens. Você considera a leitura importante para a formação desses jovens?",
+        enunciado: "Atualmente, os filmes fazem parte do cotidiano de muitas pessoas. Você considera os filmes importantes para o entretenimento e para a formação do público?",
         alternativas: [
             {
-                texto: "Sim, pois a leitura contribui para o desenvolvimento do conhecimento, amplia o vocabulário e ajuda na formação do pensamento crítico.",
-                afirmacao: "A leitura possui grande importância na formação dos jovens, pois permite adquirir novos conhecimentos, desenvolver o pensamento crítico e compreender melhor diferentes assuntos e realidades."
+                texto: "Sim, pois além de proporcionarem entretenimento, os filmes podem transmitir conhecimentos, apresentar diferentes culturas e estimular a reflexão sobre diversos assuntos.",
+                afirmacao: "Os filmes possuem grande importância na sociedade, pois além do entretenimento, podem contribuir para o aprendizado, apresentar diferentes perspectivas e estimular o pensamento crítico."
             },
             {
-                texto: "Não, pois atualmente existem outras formas de obter informações e conhecimentos, principalmente por meio da internet e das redes sociais.",
-                afirmacao: "Apesar de a internet e as redes sociais facilitarem o acesso à informação, a leitura continua sendo importante para desenvolver a concentração, o conhecimento e a capacidade de interpretar diferentes conteúdos."
+                texto: "Não, pois os filmes servem principalmente como uma forma de entretenimento e não possuem grande influência na formação das pessoas.",
+                afirmacao: "Apesar de os filmes serem uma importante forma de entretenimento, eles também podem transmitir mensagens, apresentar diferentes realidades e influenciar a maneira como as pessoas enxergam determinados assuntos."
             }
         ]
     },
     {
-        enunciado: "Algumas pessoas têm dificuldade para começar a ler. Qual seria uma boa maneira de desenvolver o hábito da leitura?",
+        enunciado: "Algumas pessoas têm dificuldade para escolher um filme para assistir. Qual seria uma boa maneira de encontrar filmes interessantes?",
         alternativas: [
             {
-                texto: "Começar com livros curtos, de fácil compreensão e que abordem assuntos de interesse do leitor.",
-                afirmacao: "Para quem ainda não possui o hábito de ler, começar por livros curtos e relacionados aos seus interesses pode tornar a leitura mais agradável e ajudar a transformá-la em um hábito."
+                texto: "Escolher filmes de gêneros que sejam do interesse do espectador e procurar recomendações de outras pessoas.",
+                afirmacao: "Escolher filmes de acordo com os próprios interesses pode tornar a experiência mais agradável. Além disso, recomendações podem ajudar o espectador a conhecer novas histórias e gêneros."
             },
             {
-                texto: "Começar diretamente por livros clássicos e obras mais complexas.",
-                afirmacao: "Começar por obras muito complexas pode tornar a leitura cansativa para quem ainda não possui o hábito. Por isso, é importante escolher livros adequados ao nível de leitura e aos interesses de cada pessoa."
+                texto: "Assistir apenas aos filmes mais populares e conhecidos pelo público.",
+                afirmacao: "Apesar de os filmes populares serem uma opção, limitar-se apenas a eles pode impedir que o espectador conheça produções diferentes e descubra novos gêneros e histórias."
             }
         ]
     },
     {
-        enunciado: "Os livros físicos podem ter preços elevados, enquanto a leitura digital oferece opções mais acessíveis. Os livros digitais podem ajudar a tornar a leitura mais acessível?",
+        enunciado: "Com o crescimento dos serviços de streaming, ficou mais fácil assistir a filmes em casa. Essa mudança tornou o acesso aos filmes mais fácil para a população?",
         alternativas: [
             {
-                texto: "Sim, pois os livros digitais podem ser encontrados por preços menores e também existem diversas opções gratuitas.",
-                afirmacao: "Os livros digitais podem facilitar o acesso à leitura, principalmente para pessoas que não possuem condições de comprar livros físicos, oferecendo alternativas gratuitas ou com preços mais acessíveis."
+                texto: "Sim, pois os serviços de streaming permitem assistir a diversos filmes sem precisar ir ao cinema.",
+                afirmacao: "Os serviços de streaming facilitaram o acesso aos filmes, permitindo que as pessoas assistam a diferentes produções em casa, de maneira prática e conveniente."
             },
             {
-                texto: "Não, pois os livros físicos continuam sendo a principal forma de leitura para muitas pessoas.",
-                afirmacao: "Mesmo que muitas pessoas ainda prefiram os livros físicos, a leitura digital é uma alternativa importante, pois permite que mais pessoas tenham acesso aos livros e ao conhecimento."
+                texto: "Não, pois o cinema continua sendo a melhor forma de assistir a filmes.",
+                afirmacao: "Apesar de o cinema proporcionar uma experiência diferenciada, os serviços de streaming também são importantes, pois oferecem praticidade e permitem que mais pessoas tenham acesso a diferentes filmes."
             }
         ]
     },
 ];
-
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
